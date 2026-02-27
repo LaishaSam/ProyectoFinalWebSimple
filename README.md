@@ -2,7 +2,7 @@
 
 Laisha Samanta Ramos Ulloa
 
-Proyecto final: desarrollo de una aplicación web simple integrando HTML, CSS, JavaScript y simulación de API/nube.
+Proyecto final de la materia: desarrollo de una aplicación web simple integrando HTML, CSS, JavaScript y simulación de API/nube.
 
 ## Descripción
 
@@ -34,3 +34,9 @@ La aplicación simula una tienda estilo Target:
 - `index.html` – estructura principal y secciones (inicio, cuenta, productos, carrito).
 - `styles.css` – estilos, colores y diseño.
 - `app.js` – lógica de negocio, simulación de API, manejo de carrito y autenticación.
+
+## Cómo ejecutar
+
+1. Descarga este repositorio.
+2. Abre `index.html` en tu navegador.
+3. Regístrate con un correo, inicia sesión y comienza a agregar productos al carrito.
