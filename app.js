@@ -1,9 +1,9 @@
 // ==== Datos simulados para API ====
 const PRODUCTS = [
-  { id: 1, name: "Blusa basica de mujer", description: "Algodon 100%, varios colores.", price: 199.00, image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400" },
-  { id: 2, name: "Bolsa TH", description: "Azul oscuro, mediana.", price: 499.00, image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400" },
-  { id: 3, name: "Botas vaqueras", description: "Ideales para bailar", price: 899.00, image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" },
-  { id: 4, name: "Chamarra de mezclilla", description: "Color azul, unisex.", price: 399.00, image: "https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?w=400" }
+  { id: 1, name: "Blusa basica de mujer", description: "Algodon 100%, varios colores.", price: 199.00, image: "blusa.jpg" },
+  { id: 2, name: "Bolsa TH", description: "Azul oscuro, mediana.", price: 499.00, image: "bolsa.jpg" },
+  { id: 3, name: "Botas vaqueras", description: "Ideales para bailar", price: 899.00, image: "botas.jpg" },
+  { id: 4, name: "Chamarra de mezclilla", description: "Color azul, unisex.", price: 399.00, image: "chamarra.jpg" }
 ];
 // ===== Seleccion de elementos =====
 const verProductosBtn = document.getElementById("ver-productos-btn");
