@@ -1,9 +1,9 @@
 // ==== Datos simulados para API ====
 const PRODUCTS = [
-  { id: 1, name: "Blusa basica de mujer", description: "Algodon 100%, varios colores.", price: 199.00, image: "blusa.jpg" },
-  { id: 2, name: "Bolsa TH", description: "Azul oscuro, mediana.", price: 499.00, image: "bolsa.jpg" },
-  { id: 3, name: "Botas vaqueras", description: "Ideales para bailar", price: 899.00, image: "botas.jpg" },
-  { id: 4, name: "Chamarra de mezclilla", description: "Color azul, unisex.", price: 399.00, image: "chamarra.jpg" }
+  { id: 1, name: "Blusa basica de mujer", description: "Algodon 100%, varios colores.", price: 199.00, image: "img/blusa.jpg" },
+  { id: 2, name: "Bolsa TH", description: "Azul oscuro, mediana.", price: 499.00, image: "img/bolsa.jpg" },
+  { id: 3, name: "Botas vaqueras", description: "Ideales para bailar", price: 899.00, image: "img/botas.jpg" },
+  { id: 4, name: "Chamarra de mezclilla", description: "Color azul, unisex.", price: 399.00, image: "img/chamarra.jpg" }
 ];
 // ===== Seleccion de elementos =====
 const verProductosBtn = document.getElementById("ver-productos-btn");
