@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Target Demo Proyecto Final</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">
+      <span class="logo-circle"></span>
+      <h1>Target Demo</h1>
+    </div>
+    <nav class="main-nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#carrito">Carrito</a>
+      <a href="#cuenta">Mi cuenta</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <h2>Especiales del mes</h2>
+      <p>Encuentra tus productos favoritos con descuentos increíbles.</p>
+      <button id="ver-productos-btn">Ver productos</button>
+    </section>
+
+    <!-- Login / Registro -->
+    <section id="cuenta" class="auth-section">
+      <h2 id="auth-title">Iniciar sesión</h2>
+      <form id="auth-form">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" required>
+
+        <button type="submit" id="auth-submit-btn">Iniciar sesión</button>
+      </form>
+      <p id="auth-toggle-text">
+        ¿No tienes cuenta?
+        <button id="toggle-auth" type="button" class="link-button">Regístrate</button>
+      </p>
+      <p id="auth-message" class="auth-message"></p>
+    </section>
+
+    <!-- Bienvenida usuario logueado -->
+    <section id="bienvenida" class="welcome-section" aria-live="polite">
+      <p>Bienvenidx, <span id="user-name"></span> | <button id="logout-btn" class="link-button">Cerrar sesión</button></p>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos" class="products-section">
+      <h2>Productos destacados</h2>
+      <div id="products-grid" class="products-grid">
+        <!-- Se llena dinámicamente desde "API" simulada -->
+      </div>
+    </section>
+
+    <!-- Carrito -->
+    <section id="carrito" class="cart-section">
+      <h2>Carrito de compras</h2>
+      <div id="cart-items"></div>
+      <p id="cart-empty">Tu carrito está vacío.</p>
+      <p id="cart-total"></p>
+      <button id="clear-cart-btn">Vaciar carrito</button>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>Proyecto final – Aplicación web simple estilo Target. Hecho por Laisha Samanta Ramos Ulloa.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
